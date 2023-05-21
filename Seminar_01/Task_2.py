@@ -14,5 +14,5 @@ if number//1000 != 0 or number//100 == 0:
 else:
     while number != 0:
         result += number % n
-        number = number//n
+        number //= n
     print(f'Сумма цифр равна: {result}')
