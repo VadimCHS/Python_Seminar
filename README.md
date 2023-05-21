@@ -1,1 +1,1 @@
-# Python_Seminar
+#  Для практических зада по Python.
