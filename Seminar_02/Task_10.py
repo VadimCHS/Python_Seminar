@@ -5,6 +5,8 @@
 
 from random import randint
 
+
+
 number_of_coins = int(input('Введите число монеток: '))
 eagle = 0
 tails = 0
