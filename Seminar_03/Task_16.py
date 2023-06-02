@@ -13,12 +13,12 @@
 from random import randint
 
 my_list = []
-len_list = int(input('Введите колличство элементов в списке: '))
+
+for i in range(int(input('Введите колличство элементов в списке: '))):
+    my_list.append(randint(0, 10))
+
 number = int(input('Введите чило: '))
 count_number = 0
-
-for i in range(len_list + 1):
-    my_list.append(randint(0, 10))
 
 for i in range(len(my_list)):
     if number == my_list[i]:

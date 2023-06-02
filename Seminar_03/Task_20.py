@@ -32,7 +32,6 @@ word =  input('Введите слово: ')
 sum_value = 0
 
 for i in range(len(word)):
-    # print(price.get(word[i].upper()))
     sum_value += price.get(word[i].upper())
 
 print(f'Слово: {word}')

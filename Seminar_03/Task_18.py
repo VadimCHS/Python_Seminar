@@ -12,10 +12,10 @@
 
 from random import randint
 
-my_list = [1,2,4,5]
+my_list = []
 
-# for i in range(int(input('Введите колличство элементов в списке: '))):
-#     my_list.append(randint(0, 10))
+for i in range(int(input('Введите колличство элементов в списке: '))):
+    my_list.append(randint(0, 10))
 
 number = int(input('Введите чило: '))
 near_number = [my_list[0]]
