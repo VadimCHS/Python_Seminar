@@ -5,12 +5,14 @@
 # *Пример:*
 
 # 2 2 -> 4
+import sys
+
+sys.setrecursionlimit(10000)
 
 def sum_numbers(a, b):
     if b == 0:
         return a
     return sum_numbers(a + 1, b - 1)
-    
 
 number_one = int(input('Введите первое число: '))
 number_two = int(input('Введите второе число: '))
